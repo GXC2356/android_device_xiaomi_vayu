@@ -72,6 +72,7 @@ BOARD_KERNEL_CMDLINE := \
 
 BOARD_MKBOOTIMG_ARGS := --header_version 2
 
+TARGET_KERNEL_CLANG_VERSION := latest
 TARGET_KERNEL_CONFIG := vayu_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
 
